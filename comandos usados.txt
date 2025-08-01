@@ -1,0 +1,83 @@
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git init 
+Reinitialized existing Git repository in C:/Users/37680729832/Desktop/meu-projeto-js-remoto/.git/
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git config --global user.name "Rogério Messias"
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git config --global user.email "rogerio.messias@outlook.com"
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git add .
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git commit -m "Criação de pastas e arquivos do projeto JS"
+[main 08fb591] Criação de pastas e arquivos do projeto JS
+ 1 file changed, 1 insertion(+)
+ create mode 100644 script.js
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 356 bytes | 356.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/RogerioMessias/meu-projeto-js-remoto.git
+   20f3965..08fb591  main -> main
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git commit -m "Alteração de código no arquivo JS"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push
+Everything up-to-date
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git add .
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push
+Everything up-to-date
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push
+Everything up-to-date
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push origin
+Everything up-to-date
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git commit -m "alteração do arquivo JS"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git add .
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   script.js
+
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push
+Everything up-to-date
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push origin main
+Everything up-to-date
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git add .  
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git commit -m "finalizando atualizações"
+[main 2b7e247] finalizando atualizações
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 381 bytes | 381.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/RogerioMessias/meu-projeto-js-remoto.git
+   08fb591..2b7e247  main -> main
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git add .
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git commit -m "Atualização de pastas"
+[main 2dd1f2d] Atualização de pastas
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename script.js => atividades/script.js (100%)
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> git push origin
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 343 bytes | 343.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/RogerioMessias/meu-projeto-js-remoto.git
+   2b7e247..2dd1f2d  main -> main
+PS C:\Users\37680729832\Desktop\meu-projeto-js-remoto> 
